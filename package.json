@@ -1,0 +1,17 @@
+{
+  "name": "react-spa",
+  "version": "1.0.0",
+  "description": "'Conceitos de SPA com Reactjs'",
+  "main": "index.js",
+  "repository": "https://github.com/daniel-silva-dxp/react-app-spa.git",
+  "author": "Daniel Silva <danielsilvadxp@gmail.com> (https://danielsilva-front.netlify.app/)",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.9.41",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1",
+    "styled-components": "^5.1.1"
+  }
+}
