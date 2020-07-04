@@ -3,7 +3,6 @@ const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-
 module.exports = {
     devtool: 'source-map',
     entry: [
@@ -39,6 +38,7 @@ module.exports = {
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
+
         new HtmlWebpackPlugin({
             "title": 'SPA with Reactjs',
             "template": path.join(__dirname, 'public', 'index.html'),
