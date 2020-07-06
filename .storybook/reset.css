@@ -1,0 +1,21 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	vertical-align: baseline;
+}
+html,
+body {
+    font-size: 100%;
+    overflow-x: hidden;
+}
+ul[class],
+ol[class] {
+    list-style: none;
+}
