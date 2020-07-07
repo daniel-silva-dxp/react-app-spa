@@ -1,0 +1,15 @@
+.repos,
+.starred {
+	width: calc(100% - 40px);
+	padding: 20px;
+	border-radius: 3px;
+}
+.repos ul li,
+.starred ul li {
+	font-size: .9em;
+	color: #232426;
+}
+.repos ul li:nth-of-type(2n + 1),
+.starred ul li:nth-of-type(2n + 1) {
+	background: #f8f8f8;
+}

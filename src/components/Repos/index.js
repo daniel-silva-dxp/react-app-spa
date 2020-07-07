@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './style.css';
+
 const Repos = ({ className, title, repos }) => {
 	return (
 		<div className={className}>

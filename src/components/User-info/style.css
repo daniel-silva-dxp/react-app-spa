@@ -1,0 +1,43 @@
+.user-info {
+	width: 100%;
+	height: 250px;
+	border-radius: 3px;
+	display: flex;
+	overflow: hidden;
+}
+.user-info img {
+	width: 250px;
+	height: 250px;
+}
+.user-info .wrapper-info {
+	padding: 10px;
+	width: calc(100% - 250px);
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper-info h1 {
+	text-transform: uppercase;
+}
+.wrapper-info h4 {
+	color: #c4c4c4;
+	font-weight: 300;
+}
+.wrapper-info ul.repos-info {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.wrapper-info ul.repos-info li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: .8em;
+}
+ul.repos-info li span:last-child {
+	font-size: .8em;
+	color: #c4c4c4;
+}

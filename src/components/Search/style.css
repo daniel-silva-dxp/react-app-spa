@@ -1,0 +1,24 @@
+.search {
+	height: 100px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.box-wrapper {
+	background-color: #fff;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(35, 36, 38, 0.3);
+	-moz-box-shadow: 0px 1px 1px 0px rgba(35, 36, 38, 0.3);
+	box-shadow: 0px 1px 1px 0px rgba(35, 36, 38, 0.3);
+}
+input[type="search"] {
+	outline: 0;
+	width: 60%;
+	height: 35px;
+	padding: 0px 15px;
+	border-radius: 2px;
+	border: 1px solid #dde4e6;
+	background: #f8f8f8;
+	font-size: 12px;
+	line-height: 12px;
+}

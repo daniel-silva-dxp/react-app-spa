@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import Content from 'components/Content'
+import Content from 'components/Content';
+
+import './style.css';
 
 class Home extends Component {
     constructor() {
@@ -70,16 +72,18 @@ class Home extends Component {
 	}
 	render() {
 		return (
-			<Content 
-				userInfo={this.state.userInfo}
-				repos={this.state.repos}
-				starred={this.state.starred}
-				isFetching={this.state.isFetching}
-				handleSearch={(e) => this.handleSearch(e)}
-				getRepos={this.getRepos('repos')}
-				getStarreds={this.getRepos('starred')}
-				message={this.state.message}
-			/>
+			<div className="container">
+				<Content 
+					userInfo={this.state.userInfo}
+					repos={this.state.repos}
+					starred={this.state.starred}
+					isFetching={this.state.isFetching}
+					handleSearch={(e) => this.handleSearch(e)}
+					getRepos={this.getRepos('repos')}
+					getStarreds={this.getRepos('starred')}
+					message={this.state.message}
+				/>
+			</div>
 		);
 	}
 }

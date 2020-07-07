@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './style.css';
+
 const UserInfo = ({ userInfo }) => {
 	return (
 		<div className="user-info box-wrapper">

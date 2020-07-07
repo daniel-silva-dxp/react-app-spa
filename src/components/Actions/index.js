@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './style.css';
+
 const Actions = ({ getRepos, getStarreds }) => {
 	return (
 		<div className="actions">
